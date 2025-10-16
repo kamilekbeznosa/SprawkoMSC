@@ -57,7 +57,78 @@ Data wykonania ćwiczenia \\
 Zapoznanie z podstawowymi parametrami wybranych układów cyfrowych TTL, konkretnie z przerzutnikami \textbf{ D, T, RS} oraz \textbf{JK}.
 
 \section{Podstawa teoretyczna}
-Opisać teorie, m. in. napiecie +5V jako 1 i 0V jako 0, opisać zakres działania z błedem/zakresem ok. 0.7V (sprawdzic skrypt), dobrze by było dodac wykres który to przedstawia :)
+    Na zajęciach będziemy zajmować się bramkami logicznymi i przerzutnikami, które stanowią elementy elektroniki cyfrowej. Bramki logiczne odpowiadają za operacje logiczne, natomiast przerzutniki umożliwiają przechowywanie i przełączanie stanów logicznych w odpowiedzi na sygnały zegarowe.
+
+    \subsection{1. Bramki TTL}
+    Bramki TTL to rodzaj bramek logicznych, które wykorzystują tranzystory bipolarne do realizacji operacji logicznych. Stan wysoki reprezentowany jest przez napięcie ok. 5V, a stan niski – przez napięcie bliskie 0V.
+    \begin{itemize}
+        \item Logiczna 1 to stan, w którym napięcie ma wartość od około 3.5V do 5V.
+        \item Logiczna 0 to stan, w którym napięcie wynosi 0V, ale może wahać się między 0.3V do 0.5V.
+        \item Błąd pomiaru: Podczas wykonywania eksperymentów zakładamy, że błąd pomiaru wynosi 0.7V. Wynika to z niedoskonałości urządzeń pomiarowych oraz innych czynników zewnętrznych.
+        \item Czasy tpHL, tpLH: są to czasy potrzebne do zmiany stanu logicznego na wyjściu bramki: 
+        \begin{itemize}
+            \item tpHL – czas, w którym sygnał logiczny zmienia się z poziomu wysokiego na niski stan,
+            \item tpLH – czas, w którym sygnał logiczny zmienia się z poziomu niskiego na wysoki stan.
+        \end{itemize}
+    \end{itemize}
+
+    \subsection{2. Przerzutniki}
+
+    Przerzutniki to układy, które pozwalają na przechowywanie jednego bitu informacji. Używane są w licznikach, rejestrach, pamięciach oraz innych układach wymagających przechowywania stanów logicznych.
+
+    \subsubsection{Przerzutnik typu D}
+    \begin{longtable}{|c|c|c|}
+        \hline
+        \textbf{Q1} & \textbf{D} & \textbf{Qi+1} \\
+        \hline
+        \endfirsthead
+        0 & 0 & 0 \\
+        0 & 1 & 1 \\
+        1 & 0 & 0 \\
+        1 & 1 & 1 \\
+        \hline
+    \end{longtable}
+
+    \subsubsection{Przerzutnik typu JK}
+    \begin{longtable}{|c|c|c|}
+        \hline
+        \textbf{Q1} & \textbf{J} & \textbf{K} & \textbf{Qi+1} \\
+        \hline
+        \endfirsthead
+        0 & 0 & - & 0 \\
+        0 & 1 & - & 1 \\
+        1 & 0 & 1 & - \\
+        1 & 1 & 0 & - \\
+        \hline
+    \end{longtable}
+
+    \subsubsection{Przerzutnik typu T}
+    \begin{longtable}{|c|c|c|}
+        \hline
+        \textbf{Q1} & \textbf{T} & \textbf{Qi+1} \\
+        \hline
+        \endfirsthead
+        0 & 0 & 0 \\
+        0 & 1 & 1 \\
+        1 & 0 & 1 \\
+        1 & 1 & 0 \\
+        \hline
+    \end{longtable}
+
+    \subsubsection{Przerzutnik typu SR (Set-Reset)}
+    \begin{longtable}{|c|c|c|}
+        \hline
+        \textbf{R} & \textbf{S} & \textbf{Qn} \\
+        \hline
+        \endfirsthead
+        0 & 0 & Qn-1 \\
+        0 & 1 & 1 \\
+        1 & 0 & 0 \\
+        1 & 1 & N \\
+        \hline
+    \end{longtable}
+
+    \pagebreak
 
 \pagebreak
 \section{przebieg ćwiczeń}
