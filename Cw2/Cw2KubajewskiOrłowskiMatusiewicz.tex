@@ -99,7 +99,7 @@ Zapoznanie z podstawowymi parametrami wybranych układów cyfrowych TTL, konkret
 	
     \subsection{ Przerzutniki}
 
-    Przerzutniki to układy, które pozwalają na przechowywanie jednego bitu informacji. Używane są w licznikach, rejestrach, pamięciach oraz innych układach wymagających przechowywania stanów logicznych.
+    Przerzutniki to układy, które pozwalają na przechowywanie jednego bitu informacji. Używane są w licznikach, rejestrach, pamięciach oraz innych układach wymagających przechowywania stanów logicznych\cite{wiki-flip}.
 
     \subsubsection{Przerzutnik typu D}
     \begin{table}[H]
@@ -122,10 +122,10 @@ Zapoznanie z podstawowymi parametrami wybranych układów cyfrowych TTL, konkret
     	\begin{tabular}{|c|c|c|c|}
     		\hline
     		\textbf{Q$_i$} & \textbf{J} & \textbf{K} & \textbf{Q$_{i+1}$} \\ \hline
-    		0 & 0 & X & 0 \\ 
-    		0 & 1 & X & 1 \\ 
-    		1 & 0 & X & 1 \\ 
-    		1 & 1 & X & 0 \\ 
+    		0 & 0 & - & 0 \\ 
+    		0 & 1 & - & 1 \\ 
+    		1 & - & 1 & 0 \\ 
+    		1 & - & 1 & 1 \\ 
     		\hline
     	\end{tabular}
     	\caption{Tabela wzbudzeń przerzutnika typu JK}
@@ -151,8 +151,8 @@ Zapoznanie z podstawowymi parametrami wybranych układów cyfrowych TTL, konkret
     	\centering
     	\begin{tabular}{|c|c|c|}
     		\hline
-    		\textbf{R} & \textbf{S} & \textbf{Q$_n$} \\ \hline
-    		0 & 0 & Q$_{n-1}$ \\ 
+    		\textbf{R} & \textbf{S} & \textbf{Q$_i$} \\ \hline
+    		0 & 0 & Q$_{i-1}$ \\ 
     		0 & 1 & 1 \\ 
     		1 & 0 & 0 \\ 
     		1 & 1 & N \\ 
@@ -306,6 +306,11 @@ W zadaniu trzecim zaobserwowano rzeczywiste działanie przerzutników. Pozwolił
 	\textit{Transistor–transistor logic}, Wikipedia, dostęp online: 
 	\url{https://en.wikipedia.org/wiki/Transistor-transistor_logic}, 
 	data dostępu: październik 2025.
+	
+	\bibitem{wiki-flip} 
+	\textit{Excitation table}, Wikipedia, dostęp online: 
+	\url{https://en.wikipedia.org/wiki/Excitation_table}, 
+	data dostępu: lipiec 2025.
 	
 	\bibitem{TI7400} 
 	Texas Instruments, \textit{SN7400 NAND Gate Datasheet}, dostęp online: 
