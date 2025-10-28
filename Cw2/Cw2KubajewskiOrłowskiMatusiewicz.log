@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.26)  28 OCT 2025 12:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.26)  28 OCT 2025 12:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -669,7 +669,7 @@ ic$\T1/cmr/m/n/10 , data do-
 <protokol.JPG, id=62, 4015.0pt x 3011.25pt>
 File: protokol.JPG Graphic file (type jpg)
 <use protokol.JPG>
-Package pdftex.def Info: protokol.JPG  used on input line 343.
+Package pdftex.def Info: protokol.JPG  used on input line 348.
 (pdftex.def)             Requested size: 345.0pt x 258.73271pt.
  [10 <./protokol.JPG>] (Cw2KubajewskiOrłowskiMatusiewicz.aux)
  ***********
@@ -682,10 +682,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16130 strings out of 474486
- 329383 string characters out of 5745171
+ 16131 strings out of 474486
+ 329394 string characters out of 5745171
  1940542 words of memory out of 5000000
- 38157 multiletter control sequences out of 15000+600000
+ 38158 multiletter control sequences out of 15000+600000
  564790 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,107p,774b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -702,10 +702,10 @@ pen/ec/dpi600\ecbx1000.pk><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type
 /type1/public/amsfonts/cm/cmr7.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/PC/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Cw2KubajewskiOrłowskiMatusiewicz.pdf (10 pages, 4030888 byte
+Output written on Cw2KubajewskiOrłowskiMatusiewicz.pdf (10 pages, 4032219 byte
 s).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
+ 383 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
