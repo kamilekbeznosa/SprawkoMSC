@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.26)  15 OCT 2025 20:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.26)  28 OCT 2025 12:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -464,7 +464,34 @@ Package caption Info: New subtype `subfigure' on input line 238.
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count292
 )
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count293
+\float@exts=\toks32
+\float@box=\box63
+\@float@everytoks=\toks33
+\@floatcapt=\box64
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip50
+\enit@outerparindent=\dimen258
+\enit@toks=\toks34
+\enit@inbox=\box65
+\enit@count@id=\count294
+\enitdp@description=\count295
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 (Cw2KubajewskiOr≈ÇowskiMatusiewicz.aux
+
+LaTeX Warning: Label `fig:moj_obrazek' multiply defined.
+
+
+LaTeX Warning: Label `fig:moj_obrazek' multiply defined.
+
 
 LaTeX Warning: Label `fig:moj_obrazek' multiply defined.
 
@@ -474,34 +501,34 @@ LaTeX Warning: Label `fig:moj_obrazek' multiply defined.
 )
 \openout1 = `Cw2KubajewskiOr≈ÇowskiMatusiewicz.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count293
-\scratchdimen=\dimen258
-\scratchbox=\box63
-\nofMPsegments=\count294
-\nofMParguments=\count295
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count296
-\MPscratchDim=\dimen259
-\MPnumerator=\count297
-\makeMPintoPDFobject=\count298
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count296
+\scratchdimen=\dimen259
+\scratchbox=\box66
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen260
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks36
 )
 (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base
 .sty
@@ -513,19 +540,20 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--31
+Underfull \hbox (badness 10000) in paragraph at lines 23--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--31
+Underfull \hbox (badness 10000) in paragraph at lines 23--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--31
+Underfull \hbox (badness 10000) in paragraph at lines 23--33
 
  []
 
@@ -533,79 +561,151 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--31
 
 {C:/Users/PC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 40.
+(Font)              <7> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 40.
+(Font)              <5> on input line 42.
 
-Overfull \hbox (51.71692pt too wide) in paragraph at lines 39--53
+Overfull \hbox (51.71692pt too wide) in paragraph at lines 41--55
  [] 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
 [2]
-<obwod1.PNG, id=14, 467.346pt x 458.31226pt>
+<margines.PNG, id=15, 507.69675pt x 337.86224pt>
+File: margines.PNG Graphic file (type png)
+<use margines.PNG>
+Package pdftex.def Info: margines.PNG  used on input line 84.
+(pdftex.def)             Requested size: 276.00105pt x 183.67502pt.
+<czas.PNG, id=17, 313.17pt x 229.45724pt>
+File: czas.PNG Graphic file (type png)
+<use czas.PNG>
+Package pdftex.def Info: czas.PNG  used on input line 100.
+(pdftex.def)             Requested size: 189.75105pt x 139.03387pt.
+ [3 <./margines.PNG> <./czas.PNG>]
+Overfull \hbox (3.41873pt too wide) in paragraph at lines 113--146
+[][]  [] 
+ []
+
+[4]
+<obwod1.PNG, id=30, 467.346pt x 458.31226pt>
 File: obwod1.PNG Graphic file (type png)
 <use obwod1.PNG>
-Package pdftex.def Info: obwod1.PNG  used on input line 70.
+Package pdftex.def Info: obwod1.PNG  used on input line 196.
 (pdftex.def)             Requested size: 276.00105pt x 270.66063pt.
- [3 <./obwod1.PNG>] [4]
-<powierzchnia.PNG, id=24, 481.04718pt x 408.02437pt>
+ [5 <./obwod1.PNG>] [6]
+<powierzchnia.PNG, id=38, 481.04718pt x 408.02437pt>
 File: powierzchnia.PNG Graphic file (type png)
 <use powierzchnia.PNG>
-Package pdftex.def Info: powierzchnia.PNG  used on input line 121.
+Package pdftex.def Info: powierzchnia.PNG  used on input line 247.
 (pdftex.def)             Requested size: 172.5pt x 146.31587pt.
-<D.png, id=25, 299.31825pt x 177.66376pt>
+<D.png, id=39, 299.31825pt x 177.66376pt>
 File: D.png Graphic file (type png)
 <use D.png>
-Package pdftex.def Info: D.png  used on input line 133.
-(pdftex.def)             Requested size: 103.50105pt x 61.43503pt.
-<T.png, id=26, 298.11375pt x 160.80075pt>
+Package pdftex.def Info: D.png  used on input line 259.
+(pdftex.def)             Requested size: 137.9979pt x 81.91066pt.
+<T.png, id=40, 298.11375pt x 160.80075pt>
 File: T.png Graphic file (type png)
 <use T.png>
-Package pdftex.def Info: T.png  used on input line 139.
-(pdftex.def)             Requested size: 103.50105pt x 55.82718pt.
-<RS.png, id=27, 412.54124pt x 230.66174pt>
+Package pdftex.def Info: T.png  used on input line 265.
+(pdftex.def)             Requested size: 137.9979pt x 74.43541pt.
+<RS.png, id=41, 412.54124pt x 230.66174pt>
 File: RS.png Graphic file (type png)
 <use RS.png>
-Package pdftex.def Info: RS.png  used on input line 145.
-(pdftex.def)             Requested size: 103.50105pt x 57.86942pt.
-<JK.png, id=28, 284.86424pt x 190.91325pt>
+Package pdftex.def Info: RS.png  used on input line 271.
+(pdftex.def)             Requested size: 137.9979pt x 77.15689pt.
+<JK.png, id=42, 284.86424pt x 190.91325pt>
 File: JK.png Graphic file (type png)
 <use JK.png>
-Package pdftex.def Info: JK.png  used on input line 151.
-(pdftex.def)             Requested size: 103.50105pt x 69.36377pt.
- [5 <./powierzchnia.PNG> <./D.png> <./T.png> <./RS.png> <./JK.png>] [6]
-<protokol.JPG, id=41, 4015.0pt x 3011.25pt>
+Package pdftex.def Info: JK.png  used on input line 277.
+(pdftex.def)             Requested size: 137.9979pt x 92.48502pt.
+ [7 <./powierzchnia.PNG> <./D.png> <./T.png> <./RS.png> <./JK.png>]
+Overfull \hbox (1.55426pt too wide) in paragraph at lines 293--294
+\T1/cmr/m/n/10 Aby ob-li-czy¢ pro-cen-towe od-chy-le-nie rze-czy-wi-stej od war
+-to-±ci teo-re-tycz-nej, trzeba
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 298--300
+\T1/cmr/m/n/10 bramka 7400 pra-cuje po-praw-nie i za-cho-wuje w™a-±ciw° lo-gik¶
+ sta-nÛw.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--300
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+28.
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 327--330
+[]\T1/cmr/m/it/10 Transistor^^Utransistor lo-gic\T1/cmr/m/n/10 , Wi-ki-pe-dia, 
+do-st¶p on-line: $\T1/cmtt/m/n/10 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--330
+\T1/cmtt/m/n/10 / / en . wikipedia . org / wiki / Transistor-[]transistor _ log
+ic$\T1/cmr/m/n/10 , data do-
+ []
+
+[9]
+<protokol.JPG, id=62, 4015.0pt x 3011.25pt>
 File: protokol.JPG Graphic file (type jpg)
 <use protokol.JPG>
-Package pdftex.def Info: protokol.JPG  used on input line 168.
-(pdftex.def)             Requested size: 276.00105pt x 206.99536pt.
- [7 <./protokol.JPG>] (Cw2KubajewskiOr≈ÇowskiMatusiewicz.aux)
+Package pdftex.def Info: protokol.JPG  used on input line 348.
+(pdftex.def)             Requested size: 345.0pt x 258.73271pt.
+ [10 <./protokol.JPG>] (Cw2KubajewskiOr≈ÇowskiMatusiewicz.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15600 strings out of 474486
- 320237 string characters out of 5745171
- 1939542 words of memory out of 5000000
- 37645 multiletter control sequences out of 15000+600000
- 563456 words of font info for 43 fonts, out of 8000000 for 9000
+ 16131 strings out of 474486
+ 329394 string characters out of 5745171
+ 1940542 words of memory out of 5000000
+ 38158 multiletter control sequences out of 15000+600000
+ 564790 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,9n,107p,703b,487s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm090
-0.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
-1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
-cbx1440.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm1000.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i600\ecbx1000.pk>
-Output written on Cw2KubajewskiOr≈ÇowskiMatusiewicz.pdf (7 pages, 3846907 bytes
-).
+ 99i,13n,107p,774b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt100
+0.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
+1000.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
+crm0900.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1000.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\ecbx1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1440.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecrm1000.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1000.pk><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/PC/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Cw2KubajewskiOr≈ÇowskiMatusiewicz.pdf (10 pages, 4032219 byte
+s).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
+ 383 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

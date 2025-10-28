@@ -69,20 +69,27 @@ Zapoznanie z podstawowymi parametrami wybranych układów cyfrowych TTL, konkret
     
     Układy typu TTL zbudowane są z tranzystorów bipolarnych i są one zasilane napięciem stałym 5V. Działają one w logice dodatniej, czyli stan niski ( logiczne "0"), czyli 0V oraz stan wysoki( logiczne "1") odpowiadające 5V. W rzeczywistych warunkach napięcia te mogą jednak odbiegać od wartości idealnych z powodu niedoskonałości elementów i ograniczeń technologicznych\cite{maciak,wiki,TI7400}.
     \pagebreak
-    
+    \vspace*{-4em}
     Bramki konstruowane są w taki sposób, aby stan logiczny na wyjściu posiadał pewien zapas w stosunku do wymaganych napięć na wejściu\cite{TI7400}. Dzięki temu zapewniona jest poprawna praca układu i odporność na zakłócenia, dlatego:
+    \vspace{-0.5em}
     \begin{itemize}
+    
         \item Logiczna 1 to stan wysoki, w którym napięcie ma wartość od 2.4V do 5V.
         \item Logiczna 0 to stan niski, w którym napięcie wynosi 0V, ale może wahać się między 0V do 0.4V.
+        \vspace{-0.5em}
         \item Dodatkowo bramka TTL posiada tzw. margines odporności na zakłócenia, wynoszący około 0.4V zarówno na wejściu i wyjściu bramki.
+        \vspace{-1em}
         \begin{figure}[h]
         	\centering
         	\includegraphics[width=0.8\textwidth]{margines.PNG}
+        	\vspace{-1em}
         	\caption{Wykres napięć bramki TTL wraz z marginesami zakłóceń}
         	\label{fig:moj_obrazek}
         \end{figure}
+        \vspace{-1.5em}
         \item Czasy tpHL, tpLH: są to czasy potrzebne do zmiany stanu logicznego na wyjściu bramki: 
         \begin{itemize}
+        \vspace{-0.5em}
             \item tpHL – czas, w którym sygnał logiczny zmienia się z poziomu wysokiego na niski stan,
             \item tpLH – czas, w którym sygnał logiczny zmienia się z poziomu niskiego na wysoki stan.
         \end{itemize}
@@ -90,76 +97,90 @@ Zapoznanie z podstawowymi parametrami wybranych układów cyfrowych TTL, konkret
     
     \begin{figure}[h]
     	\centering
-    	\includegraphics[width=0.6\textwidth]{czas.PNG}
+    	\includegraphics[width=0.55\textwidth]{czas.PNG}
     	\caption{Wykres czasowy dynamicznej zmiany stanu bramki( Maciak, 2021 [1])}
     	\label{fig:moj_obrazek}
     \end{figure}
-
 	\pagebreak
-	
-    \subsection{ Przerzutniki}
 
-    Przerzutniki to układy, które pozwalają na przechowywanie jednego bitu informacji. Używane są w licznikach, rejestrach, pamięciach oraz innych układach wymagających przechowywania stanów logicznych\cite{wiki-flip}.
 
-    \subsubsection{Przerzutnik typu D}
-    \begin{table}[H]
-    	\centering
-    	\begin{tabular}{|c|c|c|}
-    		\hline
-    		\textbf{Q$_i$} & \textbf{D} & \textbf{Q$_{i+1}$} \\ \hline
-    		0 & 0 & 0 \\ 
-    		0 & 1 & 1 \\ 
-    		1 & 0 & 0 \\ 
-    		1 & 1 & 1 \\ 
-    		\hline
-    	\end{tabular}
-    	\caption{Tabela wzbudzeń przerzutnika typu D}
-    \end{table}
-    
-    \subsubsection{Przerzutnik typu JK}
-    \begin{table}[H]
-    	\centering
-    	\begin{tabular}{|c|c|c|c|}
-    		\hline
-    		\textbf{Q$_i$} & \textbf{J} & \textbf{K} & \textbf{Q$_{i+1}$} \\ \hline
-    		0 & 0 & - & 0 \\ 
-    		0 & 1 & - & 1 \\ 
-    		1 & - & 1 & 0 \\ 
-    		1 & - & 1 & 1 \\ 
-    		\hline
-    	\end{tabular}
-    	\caption{Tabela wzbudzeń przerzutnika typu JK}
-    \end{table}
-    
-    \subsubsection{Przerzutnik typu T}
-    \begin{table}[H]
-    	\centering
-    	\begin{tabular}{|c|c|c|}
-    		\hline
-    		\textbf{Q$_i$} & \textbf{T} & \textbf{Q$_{i+1}$} \\ \hline
-    		0 & 0 & 0 \\ 
-    		0 & 1 & 1 \\ 
-    		1 & 0 & 1 \\ 
-    		1 & 1 & 0 \\ 
-    		\hline
-    	\end{tabular}
-    	\caption{Tabela wzbudzeń przerzutnika typu T}
-    \end{table}
-    
-    \subsubsection{Przerzutnik typu SR (Set-Reset)}
-    \begin{table}[H]
-    	\centering
-    	\begin{tabular}{|c|c|c|}
-    		\hline
-    		\textbf{R} & \textbf{S} & \textbf{Q$_i$} \\ \hline
-    		0 & 0 & Q$_{i-1}$ \\ 
-    		0 & 1 & 1 \\ 
-    		1 & 0 & 0 \\ 
-    		1 & 1 & N \\ 
-    		\hline
-    	\end{tabular}
-    	\caption{Tabela wzbudzeń przerzutnika typu SR}
-    \end{table}
+\subsection{ Przerzutniki}
+
+    Przerzutniki to układy, które pozwalają na przechowywanie jednego bitu informacji. Używane są w licznikach, rejestrach, pamięciach oraz innych układach wymagających przechowywania stanów logicznych.
+
+    % --- PIERWSZY RZĄD 2x2 ---
+
+\begin{minipage}[b]{0.48\textwidth} % [b] wyrównanie do dołu
+	\subsubsection*{Przerzutnik typu D}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\textbf{Q$_i$} & \textbf{D} & \textbf{Q$_{i+1}$} \\ \hline
+			0 & 0 & 0 \vphantom{Q$_{n-1}$} \\ % <-- DODANY PHANTOM
+			0 & 1 & 1 \\ 
+			1 & 0 & 0 \\ 
+			1 & 1 & 1 \\ 
+			\hline
+		\end{tabular}
+		\caption{Tabela wzbudzeń przerzutnika typu D}
+	\end{table}
+\end{minipage}
+\hfill 
+\begin{minipage}[b]{0.48\textwidth} % [b] wyrównanie do dołu
+	\subsubsection*{Przerzutnik typu JK}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			\textbf{Q$_i$} & \textbf{J} & \textbf{K} & \textbf{Q$_{i+1}$} \\ \hline
+			0 & 0 & X & 0 \vphantom{Q$_{n-1}$} \\ % <-- DODANY PHANTOM
+			0 & 1 & X & 1 \\ 
+			1 & 0 & X & 1 \\ 
+			1 & 1 & X & 0 \\ 
+			\hline
+		\end{tabular}
+		\caption{Tabela wzbudzeń przerzutnika typu JK (1 i 1 działa w trybie \textbf{TOGGLE})}
+	\end{table}
+\end{minipage}
+
+\vspace{2em} % --- ODSTĘP PIONOWY MIĘDZY RZĘDAMI ---
+
+% --- DRUGI RZĄD 2x2 ---
+
+\begin{minipage}[b]{0.48\textwidth} % [b] wyrównanie do dołu
+	\subsubsection*{Przerzutnik typu T}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\textbf{Q$_i$} & \textbf{T} & \textbf{Q$_{i+1}$} \\ \hline
+			0 & 0 & 0 \vphantom{Q$_{n-1}$} \\ % <-- DODANY PHANTOM
+			0 & 1 & 1 \\ 
+			1 & 0 & 1 \\ 
+			1 & 1 & 0 \\ 
+			\hline
+		\end{tabular}
+		\caption{Tabela wzbudzeń przerzutnika typu T (Gdy na \textbf{T} jest 1 działa w trybie \textbf{TOGGLE})}
+	\end{table}
+\end{minipage}
+\hfill 
+\begin{minipage}[b]{0.48\textwidth} % [b] wyrównanie do dołu
+	\subsubsection*{Przerzutnik typu SR (Set-Reset)}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\textbf{R} & \textbf{S} & \textbf{Q$_n$} \\ \hline
+			0 & 0 & Q$_{n-1}$ \\ % <-- NASZ WZORZEC WYSOKOŚCI
+			0 & 1 & 1 \\ 
+			1 & 0 & 0 \\ 
+			1 & 1 & N \\ 
+			\hline
+		\end{tabular}
+		\caption{Tabela wzbudzeń przerzutnika typu SR}
+	\end{table}
+\end{minipage}
     
 
     \pagebreak
@@ -229,29 +250,29 @@ Do przetestowania i dokonania pomiarów użyto \textbf{modułu DB26} do którego
 \end{figure}
 
 \subsection{Zadanie 3}
-W zadaniu 3 przetestowano działanie przerzutników \textbf{T, RS, JK, D} za pomocą \textbf{modułu DB11}. Poniżej zamieszczone są schematy poszczególnych przerzutników.
+W zadaniu 3 przetestowano działanie przerzutników \textbf{T, RS, JK, D} za pomocą \textbf{modułu DB11} wprowadzając kombinacje z tabeli prawdy. Poniżej zamieszczone są schematy poszczególnych przerzutników.
 
 \begin{figure}[h]
     \centering
-    \begin{subfigure}[t]{0.3\textwidth}
+    \begin{subfigure}[t]{0.4\textwidth}
         \centering
         \includegraphics[width=\textwidth]{D.png}
         \caption{Schemat przerzutnika D}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[t]{0.3\textwidth}
+    \begin{subfigure}[t]{0.4\textwidth}
         \centering
         \includegraphics[width=\textwidth]{T.png}
         \caption{Schemat przerzutnika T}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[t]{0.3\textwidth}
+    \begin{subfigure}[t]{0.4\textwidth}
         \centering
         \includegraphics[width=\textwidth]{RS.png}
         \caption{Schemat przerzutnika RS}
     \end{subfigure}
         \hfill
-    \begin{subfigure}[t]{0.3\textwidth}
+    \begin{subfigure}[t]{0.4\textwidth}
         \centering
         \includegraphics[width=\textwidth]{JK.png}
         \caption{Schemat przerzutnika JK}
@@ -287,11 +308,11 @@ Różnice te mogą wynikać z następujących przyczyn:
 
 W zadaniu trzecim wyniki rzeczywiste nie różnią się od wartości teoretycznych. Pomiary wykazane na rzeczywistych układach odpowiadają tym w tablicach wzbudzeń dla konkretnych przerzutników.
 
+\pagebreak
 \section{Wnioski}
 W naszych zadaniach można było zaobserwować zachowanie bramek TTL, przerzutników D, T, RS oraz JK. W zadaniu pierwszym zbadano powierzchnie charakterystyczną bramki 7400 poprzez zmianę napięć na wejścia oraz pomiar napięcia na wyjściu. Otrzymane wyniki potwierdziły, że stany napięć logicznych nie są idealnie równe 0V( logiczne "0") oraz 5V( logiczne "1"), co jest zgodne z teorią działania brmake TTL. Dodatkowo zaobserwowano również margines odporności na zakłócenia, które zapewniają interpretację stanów logicznych pomimo niewielkich odchyleń napięć. Dzięki temu można było zaobserować rzeczywistą, nieliniową charakterystykę przejścia pomiędzy stanami logicznymi.\\
 
 W zadaniu trzecim zaobserwowano rzeczywiste działanie przerzutników. Pozwoliło na zweryfikowanie tablic wzbudzeń przerzutników D, T, JK oraz RS, co jest zgodne z teorią działania układów sekwencyjnych.
-\pagebreak
 \section{Literatura}
 
 \renewcommand{\refname}{}
@@ -324,7 +345,7 @@ W zadaniu trzecim zaobserwowano rzeczywiste działanie przerzutników. Pozwolił
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth, angle=-90]{protokol.JPG}
+    \includegraphics[width=1\textwidth, angle=-90]{protokol.JPG}
     \caption{Protokół}
     \label{fig:moj_obrazek}
 \end{figure}
