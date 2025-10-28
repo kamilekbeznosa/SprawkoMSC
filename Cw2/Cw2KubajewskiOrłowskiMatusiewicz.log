@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.26)  28 OCT 2025 12:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.26)  28 OCT 2025 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -611,22 +611,22 @@ Package pdftex.def Info: powierzchnia.PNG  used on input line 247.
 File: D.png Graphic file (type png)
 <use D.png>
 Package pdftex.def Info: D.png  used on input line 259.
-(pdftex.def)             Requested size: 103.50105pt x 61.43503pt.
+(pdftex.def)             Requested size: 137.9979pt x 81.91066pt.
 <T.png, id=40, 298.11375pt x 160.80075pt>
 File: T.png Graphic file (type png)
 <use T.png>
 Package pdftex.def Info: T.png  used on input line 265.
-(pdftex.def)             Requested size: 103.50105pt x 55.82718pt.
+(pdftex.def)             Requested size: 137.9979pt x 74.43541pt.
 <RS.png, id=41, 412.54124pt x 230.66174pt>
 File: RS.png Graphic file (type png)
 <use RS.png>
 Package pdftex.def Info: RS.png  used on input line 271.
-(pdftex.def)             Requested size: 103.50105pt x 57.86942pt.
+(pdftex.def)             Requested size: 137.9979pt x 77.15689pt.
 <JK.png, id=42, 284.86424pt x 190.91325pt>
 File: JK.png Graphic file (type png)
 <use JK.png>
 Package pdftex.def Info: JK.png  used on input line 277.
-(pdftex.def)             Requested size: 103.50105pt x 69.36377pt.
+(pdftex.def)             Requested size: 137.9979pt x 92.48502pt.
  [7 <./powierzchnia.PNG> <./D.png> <./T.png> <./RS.png> <./JK.png>]
 Overfull \hbox (1.55426pt too wide) in paragraph at lines 293--294
 \T1/cmr/m/n/10 Aby ob-li-czy� pro-cen-towe od-chy-le-nie rze-czy-wi-stej od war
@@ -670,7 +670,7 @@ ic$\T1/cmr/m/n/10 , data do-
 File: protokol.JPG Graphic file (type jpg)
 <use protokol.JPG>
 Package pdftex.def Info: protokol.JPG  used on input line 343.
-(pdftex.def)             Requested size: 276.00105pt x 206.99536pt.
+(pdftex.def)             Requested size: 345.0pt x 258.73271pt.
  [10 <./protokol.JPG>] (Cw2KubajewskiOrłowskiMatusiewicz.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -702,7 +702,7 @@ pen/ec/dpi600\ecbx1000.pk><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type
 /type1/public/amsfonts/cm/cmr7.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/PC/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Cw2KubajewskiOrłowskiMatusiewicz.pdf (10 pages, 4030847 byte
+Output written on Cw2KubajewskiOrłowskiMatusiewicz.pdf (10 pages, 4030888 byte
 s).
 PDF statistics:
  379 PDF objects out of 1000 (max. 8388607)
